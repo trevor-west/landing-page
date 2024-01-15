@@ -14,11 +14,23 @@ ul {
   height: 100vh;
 }
 
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-top: 10px;
+}
+
 .topnav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .topnav li {
   list-style-type: none;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
 }

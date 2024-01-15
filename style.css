@@ -2,7 +2,7 @@ body {
   margin: 0;
   display: flex;
   flex-flow: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 ul {
@@ -10,6 +10,15 @@ ul {
   padding: 0;
 }
 
-/* .content {
+.content {
+  height: 100vh;
+}
+
+.topnav {
   display: flex;
-} */
+  justify-content: space-between;
+}
+
+.topnav li {
+  list-style-type: none;
+}

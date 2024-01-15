@@ -1,0 +1,8 @@
+body {
+  display: flex;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}

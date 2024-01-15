@@ -1,8 +1,15 @@
 body {
+  margin: 0;
   display: flex;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 ul {
   margin: 0;
   padding: 0;
 }
+
+/* .content {
+  display: flex;
+} */

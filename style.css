@@ -59,3 +59,14 @@ ul {
   background-color: #171b38;
   color: white;
 }
+
+.mid-content {
+  text-align: center;
+}
+
+.content-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+

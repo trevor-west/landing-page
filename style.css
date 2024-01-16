@@ -54,3 +54,8 @@ ul {
 .text-content {
   width: 400px;
 }
+
+.navy {
+  background-color: #171b38;
+  color: white;
+}

@@ -76,7 +76,15 @@ ul {
 }
 
 .quote {
-  background-color: rgb(236, 236, 236);
+  width: 800px;
+}
+
+.quote .large-text {
+  font-size: 30px;
+}
+
+.quote-box {
   display: flex;
   justify-content: center;
+  background-color: rgb(236, 236, 236);
 }

@@ -74,3 +74,9 @@ ul {
   height: 200px;
   width: 200px;
 }
+
+.quote {
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  justify-content: center;
+}

@@ -16,6 +16,20 @@ ul {
   margin-top: 10px;
 }
 
+.logo-box{
+  display: flex;
+  align-items: center;
+}
+
+a.hover-link:hover {
+  background-color: blue;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
 .topnav {
   display: flex;
   justify-content: space-around;

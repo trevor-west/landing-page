@@ -10,12 +10,6 @@ ul {
   padding: 0;
 }
 
-/* .content {
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-} */
-
 .logo {
   height: 80px;
   width: 80px;
@@ -55,9 +49,20 @@ ul {
   width: 400px;
 }
 
-.navy {
-  background-color: #171b38;
+.navy, .footer {
+  background-color: #1f2937;
   color: white;
+}
+
+.large-text {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb
 }
 
 .mid-content {

@@ -131,8 +131,19 @@ button {
   color: #1f2937;
 }
 
+.bold-para {
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .quote-box {
   display: flex;
   justify-content: center;
   background-color: #e5e7eb;
+}
+
+.quote {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-end;
 }

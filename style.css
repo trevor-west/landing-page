@@ -46,10 +46,6 @@ a.hover-link:hover {
   gap: 20px;
 }
 
-.white-text {
-  color: white;
-}
-
 button.cta-blue, div.cta-blue {
   background-color: #3882f6;
 }
@@ -148,4 +144,9 @@ button {
   display: flex;
   flex-flow: column;
   align-items: flex-end;
+}
+
+div.cta {
+  display: flex;
+  justify-content: center;
 }

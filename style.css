@@ -75,6 +75,12 @@ button {
   width: 285px; 
 }
 
+.info-header {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
 .text-content {
   width: 400px;
 }

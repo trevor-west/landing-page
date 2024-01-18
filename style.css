@@ -134,5 +134,5 @@ button {
 .quote-box {
   display: flex;
   justify-content: center;
-  background-color: rgb(236, 236, 236);
+  background-color: #e5e7eb;
 }

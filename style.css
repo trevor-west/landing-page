@@ -5,6 +5,11 @@ body {
   justify-content: space-around;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -138,6 +143,7 @@ button {
   display: flex;
   justify-content: center;
   background-color: #e5e7eb;
+  padding: 100px 0;
 }
 
 .quote {
@@ -149,7 +155,25 @@ button {
 div.cta {
   display: flex;
   justify-content: center;
-  margin-top: 80px;
+  margin: 80px 0;
+}
+
+div.cta-content {
+  border-radius: 2%;
+  padding: 30px 30px;
+  max-width: 750px;
+  display: flex;
+  justify-content: center;
+  flex: auto;
+}
+
+button.cta-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: white 1px solid;
+  color: white;
+  height: 30px;
+  align-self: center;
+  margin-left: 75px;
 }
 
 .footer {

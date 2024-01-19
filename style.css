@@ -55,6 +55,10 @@ button.cta-blue, div.cta-blue {
   background-color: #3882f6;
 }
 
+button.cta-blue {
+  margin-top: 10px;
+}
+
 button {
   border-radius: 10%;
   padding: 5px;

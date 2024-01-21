@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -13,6 +17,10 @@ p {
 ul {
   margin: 0;
   padding: 0;
+}
+
+.flex-mobile {
+  flex: 1 0 auto;
 }
 
 .logo {
@@ -114,7 +122,15 @@ button {
 .content-box {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
+}
+
+.content.navy {
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-icon {
@@ -185,4 +201,5 @@ button.cta-button {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 1;
 }
